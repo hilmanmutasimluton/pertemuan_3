@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(177, 86, 86); /* Warna latar belakang halaman */
+}
+
+.container {
+    width: 800px; /* Lebar kontainer */
+    margin: auto; /* Posisi kontainer di tengah halaman */
+    background-color: rgb(255, 246, 246); /* Warna latar belakang kontainer */
+}
+
+.header h1 {
+    font-size: 40px; /* Ukuran teks judul dalam header */
+    margin-left: 20px; /* Jarak kiri judul dari tepi header */
+}
+
+.header ul li {
+    display: inline-block; /* Membuat elemen daftar menjadi inline */
+    margin-left: 20px; /* Jarak antara elemen daftar */
+}
+
+.header ul li a {
+    height: 300px; /* Tinggi elemen tautan */
+    background-image: url(img/prabowo.jpg); /* Gambar latar belakang tautan */
+}
+
+.content h1 {
+    font-size: 30px; /* Ukuran teks judul dalam konten */
+    margin-left: 20px; /* Jarak kiri judul dari tepi konten */
+}
+
+.content h4 {
+    margin-left: 20px; /* Jarak kiri judul kecil dari tepi konten */
+}
+
+.content p {
+    margin-left: 20px; /* Jarak kiri paragraf dari tepi konten */
+    background-color: rgb(145, 201, 76); /* Warna latar belakang paragraf */
+    text-align: center; /* Posisi teks ke tengah */
+    color: rgb(75, 119, 180); /* Warna teks putih */
+    margin-top: 20px; /* Jarak atas dari elemen sebelumnya */
+}
+
+.footer {
+    font-size: 10px; /* Ukuran teks footer */
+}
